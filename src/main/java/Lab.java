@@ -15,5 +15,11 @@ public class Lab {
      */
     public void throwUncheckedException(){
 
+        int[] newArray = new int[5];
+
+        for(int i=0;i<=5;i++){
+            newArray[i]= i+1;
+        }
+
     }
 }
